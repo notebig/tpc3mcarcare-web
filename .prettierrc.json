@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,   // ใช้ '...' แทน "..."
+  "semi": true,          // ปิดท้ายด้วย ;
+  "tabWidth": 2,
+  "printWidth": 100,
+  "trailingComma": "none"
+}

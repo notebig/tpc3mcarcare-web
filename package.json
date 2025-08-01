@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "live-server",            // ถ้าใช้ live-server; ลบทิ้งได้ถ้ายังไม่ลง
+  "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+  "format": "prettier . --write"
+    
   },
   "repository": {
     "type": "git",
@@ -17,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/notebig/tpc3mcarcare-web/issues"
   },
-  "homepage": "https://github.com/notebig/tpc3mcarcare-web#readme"
+  "homepage": "https://github.com/notebig/tpc3mcarcare-web#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0"
+  }
 }
